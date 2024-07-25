@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7465921121:AAETC2AokVr_XvUFLPEMthuN_OFf2wDeI3A")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6312249363:AAFp4DZjpWhfuWSd1oJYu02RW7_BZ5lzywA")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23475322"))
@@ -28,18 +28,18 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6170050819"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://Hshshssh:ehejsjs@cluster0.rnl2vwv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://jejato4812:pFDDTVvu5XgcCV5w@cluster0.z9cpklz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Vipurl.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "5a46477839bb186f9d168d34295a0db50eae2f05")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "412bd99fccfca9af6a7f44f2b6407007467cdbbb")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002220436117"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
