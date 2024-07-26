@@ -1,6 +1,7 @@
 # --- For-Bot-Working --------- #
 pyrofork
 TgCrypto
+pyromod
 # --- For-Database ------------ #
 pymongo
 motor
